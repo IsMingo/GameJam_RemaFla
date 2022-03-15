@@ -6,6 +6,7 @@ using UnityEngine;
 public class Joeur : MonoBehaviour
 {
    //todo raycast
+   private new float speed =0.4f;
    private void Update()
    {
       PlayerMouvement();
@@ -17,9 +18,24 @@ public class Joeur : MonoBehaviour
    private void PlayerMouvement()
    {
       //todo: mouvement du joueur
-      if (Input.GetKeyDown(KeyCode.Z))
+      if (Input.GetKey(KeyCode.UpArrow))
       {
-         
+         transform.Translate(new Vector3(0f,0f,.01f*speed));
+      }
+
+      if (Input.GetKey(KeyCode.DownArrow))
+      {
+         transform.Translate(new Vector3(0f,0f,-.01f*speed));
+      }
+      
+      if (Input.GetKey(KeyCode.LeftArrow))
+      {
+         transform.Rotate(new Vector3(0f,-0.2f*speed,0f));
+      }
+      
+      if (Input.GetKey(KeyCode.RightArrow))
+      {
+         transform.Rotate(new Vector3(0,0.2f*speed,0f));
       }
    }
 }
