@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4db73ba7-6a5a-41e6-8a61-3a74c9c9c1f5" name="Changes" comment="" />
+=======
+    <list default="true" id="4db73ba7-6a5a-41e6-8a61-3a74c9c9c1f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Abeille.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Abeille.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fleur.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fleur.cs" afterDir="false" />
+    </list>
+>>>>>>> a57815f4e078b571b21a9cc00873164c1c773af4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,8 +68,12 @@
       <option name="presentableId" value="Default" />
       <updated>1647334102358</updated>
       <workItem from="1647334114548" duration="1446000" />
+<<<<<<< HEAD
       <workItem from="1647336137449" duration="302000" />
       <workItem from="1647336878905" duration="2149000" />
+=======
+      <workItem from="1647336137449" duration="621000" />
+>>>>>>> a57815f4e078b571b21a9cc00873164c1c773af4
     </task>
     <servers />
   </component>
